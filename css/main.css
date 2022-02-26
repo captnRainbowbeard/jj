@@ -3,6 +3,7 @@
   padding :0;
   box-sizing: border-box;
   max-width: 144padding-right: 1100px;
+  font-family: Exo;
   /*overflow-x: hidden;*/
 }
 
@@ -20,7 +21,10 @@ header img{
   padding:60px;
 }
 
-
+@font-face {
+  font-family: Exo;
+  src: url(../Exo-VariableFont_wght.tff);
+}
 
 h1{
  font-family: Exo ;
