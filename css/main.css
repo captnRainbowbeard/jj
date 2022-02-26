@@ -15,9 +15,9 @@ header{
 /*  width : 1440px;*/
   padding-top: 200px;
   background: url("../imgs/hero.png");
-  background-repeat: repeat-x;
+  background-repeat: repeat;
   background-size: auto;
-  max-width: 1440px;
+  max-width: 1920px;
 }
 header img{
   margin-top: -40px;
@@ -341,7 +341,7 @@ h3{
 }
 
 .container-fluid.cont5 .row .col img{
-  margin-top: 10px;
+  margin-top: 14px;
 
 }
 .imag44{
@@ -705,6 +705,7 @@ padding-right: 100px;
   .container-fluid.conta1 .imgg1 img {
     display: none;
   }
+
   .container-fluid.conta1 .para1 p{
     padding-right: 1100px;
     padding left :1100px;
@@ -748,9 +749,9 @@ padding-right: 100px;
   text-align: justify;
   text-justify: inter-word;
   padding-left: -200px;
-
-
 }
+
+
 .container-fluid.conta3 img{
   display:none;
 
@@ -764,7 +765,10 @@ padding-right: 100px;
 
 }
 
-
+.container-fluid.cont6 {
+  margin-top: -60px;
+  display: none;
+}
 .container-fluid.cont6 h5 {
    padding-bottom: : 10px;
 
@@ -777,6 +781,14 @@ padding-right: 100px;
   padding-left:60px;
 
 }
+.container-fluid.cont6 {
+  margin-top: -60px;
+  display: none;
+}
+
+
+
+
 
 .container-fluid.cont5 .row .col h2 {
   margin-left: -30px;
@@ -921,7 +933,6 @@ padding-right: 100px;
 
 
 
-
 /*@media (min-width: 768px) {
   *{
     overflow-x: hidden;
@@ -1001,4 +1012,65 @@ padding-right: 100px;
        overflow-x: hidden;
 
    }
+
   }
+  @media  screen and (max-width: 1440px) {
+    header{
+      height :815px;
+    /*  width : 1440px;*/
+      background: url("../imgs/hero.png");
+    }
+    /* insert styles here */
+}
+
+@media only screen and (min-device-width: 1450px) and (max-device-width: 1920px)
+ {
+    *{
+        overflow-x: hidden;
+
+    }
+
+    header{
+      height :815px;
+    /*  width : 1440px;*/
+
+      background: url("../imgs/hero-big.png");
+
+    }
+
+    .container-fluid.cont8{
+      height:333px;
+      background: url("../imgs/hjd.png");
+    }
+
+    .container-fluid.cont6 img{
+      display : none;
+
+    }
+    .container-fluid.cont5 .row .col img{
+      margin-top: 40px;
+
+    }
+    .container-fluid.conta1 .imgg1 img{
+      margin-left: 230px;
+    }
+    .container-fluid.conta1{
+      height :724px;
+      width  :1920px;
+
+    }
+  }
+
+
+  @media only screen and (min-device-width: 720px) and (max-device-width: 1430px) {
+
+    .container-fluid.cont6 img{
+      display : none;
+
+    }
+
+
+
+
+
+}
